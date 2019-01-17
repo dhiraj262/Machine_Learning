@@ -11,9 +11,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
-from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
-from sklearn.ensemble import VotingClassifier
-
+from sklearn.metrics import classification_report, confusion_matrix
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -79,6 +79,10 @@ all_words = nltk.FreqDist(all_words)
 
 print('Most common words: {}'.format(all_words.most_common(50)))
 
+wordcloud = WordCloud().generate(str(corpus))
+plt.imshow(wordcloud, interpolation = 'bilinear')
+plt.axis("off")
+plt.show()
 
 from sklearn.feature_extraction.text import CountVectorizer
 vec = CountVectorizer(max_features= 2000, stop_words=stopwords.words('english'))
