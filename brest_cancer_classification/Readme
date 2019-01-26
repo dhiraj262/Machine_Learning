@@ -4,4 +4,5 @@ predicting the cancer to be manignent or benign by machine learning algorithmns 
 
 In this case study two differnet classification algorithmns have been used (linear and non-linear).
 
+PCA is applied to reduce the number of unwanted features.
 support vector machine with fine tunned parameters outperofrms the linear (logistic regression classifier) model with an validation accuracy of 94.73%.
