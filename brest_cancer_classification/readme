@@ -1,0 +1,7 @@
+Today the world is fiting with cancer and Breast cancer is the most commonly occurring cancer in women and the second most common cancer overall.
+There were over 2 million new cases in 2018.
+predicting the cancer to be manignent or benign by machine learning algorithmns helps a lot of patients for detection and cure.
+
+In this case study two differnet classification algorithmns have been used (linear and non-linear).
+
+support vector machine with fine tunned parameters outperofrms the linear (logistic regression classifier) model with an validation accuracy of 94.73%.
