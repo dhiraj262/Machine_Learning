@@ -7,3 +7,8 @@ For text classification(positive or negative) the dataset can be downloaded from
 ## second
 The second project deals with the spam or ham classification of sms. Accuracies of different classifying algorithmns is compared in this and the SVC classifier with linear (kernal) outperform others. The dataset is attached in the folder.
 
+## third
+Using Classifiaction technique for cancer classification.
+
+## Fourth
+Exploratory and predictive analysis of Wines.It is an end to end Exploration of features using effective visualization techniques and model comparision on binary and tertiary classification.
