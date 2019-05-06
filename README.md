@@ -16,3 +16,6 @@ Exploratory and predictive analysis of Wines.It is an end to end Exploration of 
 ## Fifth
 Loan Default Prediction using roc-auc metric for evalution.
 This is a solution file for LTFS Data Science Challenge.
+
+## Sixth
+Drug Risk Probability Prediction. The Gradient Boostig algorithm works better in this case minimizing RMSE score to 4.46.
